@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller1">
+    <top>
+        <HBox BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="notepadButton" mnemonicParsing="false" onAction="#whenNotepadPressed" text="Notepad" />
+                <Button fx:id="todoButton" mnemonicParsing="false" onAction="#whenTodoPressed" text="To-do List" />
+                <Button fx:id="timerButton" mnemonicParsing="false" onAction="#whenTimerPressed" text="Timer" />
+                <Button fx:id="sketchButton" mnemonicParsing="false" onAction="#whenSketchPressed" text="Sketch" />
+            </children>
+        </HBox>
+    </top>
+    <center>
+    </center>
+   <center>
+      <TextField fx:id="timeLeft" alignment="CENTER" maxWidth="500.0" prefHeight="200.0" prefWidth="500.0" text="0:00" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Verdana" size="96.0" />
+         </font>
+      </TextField>
+   </center>
+   <bottom>
+      <HBox maxHeight="200.0" maxWidth="600.0" prefHeight="200.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="startButton" mnemonicParsing="false" onAction="#whenStartPressed" prefHeight="71.0" prefWidth="178.0" text="Start" textFill="#0deb3d">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+            <Region prefHeight="200.0" prefWidth="300.0" />
+            <Button fx:id="pauseButton" mnemonicParsing="false" onAction="#whenPausePressed" prefHeight="70.0" prefWidth="191.0" text="Pause" textFill="#f50909">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
