@@ -6,7 +6,6 @@
 JavaFX/FXML project built from the ground up by Arvind Pillai using the IntelliJ Java IDE. 
 Designed to improve your productivity through packaging four essential features into one smooth interface.
 Features include Notepad, Todo-list, Timer, and a stress-relief Sketchpad using blocks.
-Development started on May 20th, 2020. Version 1.1 was completed on August 5th, 2020, and has since been released in a .JAR file.
 
 
 
