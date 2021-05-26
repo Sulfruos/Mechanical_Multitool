@@ -2,14 +2,11 @@
 
 ***INTRO***
 
-
 JavaFX/FXML project built from the ground up by Arvind Pillai using the IntelliJ Java IDE. 
 Designed to improve your productivity through packaging four essential features into one smooth interface.
 Features include Notepad, Todo-list, Timer, and a stress-relief Sketchpad using blocks.
 
-
-
-***USAGE***
+***FEATURES***
 
 The notepad is an autosaving text area that uses a .txt file to store your data. 
 To use this feature, you MUST choose a folder to save the .txt file in, or your data will not save. 
@@ -22,6 +19,20 @@ You should use the same folder you use for the notepad data for the todolist dat
 The timer is a simple timer with pause and reset features. 
 
 The sketchpad has 64 squares that can be filled with black or white color by clicking on them. It is a great stress relief tool.
+
+***INSTRUCTIONS FOR USAGE***
+
+1)Download JavaFX version 11 for your computer at the following link: https://gluonhq.com/products/javafx/. Place it somewhere convenient. 
+
+2)Download the Mechanical Multitool .jar file, and place it in your Desktop.
+
+3)Open Terminal, then type "cd Desktop". 
+
+4)To run the app, run the following command in Terminal: 
+
+java -jar --module-path /***PATHTO***/javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml MechanicalMultitool.jar
+
+From here, you can use Mechanical Multitool!
 
 ***BUGS***
 
