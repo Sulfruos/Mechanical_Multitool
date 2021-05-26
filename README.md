@@ -2,9 +2,8 @@
 
 ***INTRO***
 
-JavaFX/FXML project built from the ground up by Arvind Pillai using the IntelliJ Java IDE. 
-Designed to improve your productivity through packaging four essential features into one smooth interface.
-Features include Notepad, Todo-list, Timer, and a stress-relief Sketchpad using blocks.
+Mechanical Multitool is a JavaFX/FXML project built from the ground up by Arvind Pillai using the IntelliJ Java IDE. 
+Designed to improve your productivity through packaging a Notepad, Todo-list, Timer, and a stress-relief Sketchpad that uses blocks into one smooth interface.
 
 ***FEATURES***
 
