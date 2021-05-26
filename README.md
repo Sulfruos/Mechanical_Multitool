@@ -32,6 +32,8 @@ The sketchpad has 64 squares that can be filled with black or white color by cli
 
 java -jar --module-path /***PATHTO***/javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml MechanicalMultitool.jar
 
+Mac users can get the path to the javafx sdk through right clicking the folder, clicking "Get Info", then copying the "Where" section. 
+
 From here, you can use Mechanical Multitool!
 
 ***BUGS***
